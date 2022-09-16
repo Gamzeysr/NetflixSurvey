@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Lobster&family=Sorts+Mill+Goudy:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/Ekran\ görüntüsü\ 2022-08-07\ 161653.png);
+
+     /* burada bodyme fotoğrafı yüklemiş oldum */
+     color: white;
+     background-position: center ;
+     background-repeat: no-repeat;
+     /* arka plandaki resmi tekrar etmemesini sağladık */
+     background-size: cover;
+     /* bunu da resmi her tarafını kapla dedik */
+     background-attachment: fixed;
+
+
+}
+#container{
+    max-width: 1240px;
+    height: 1036px;
+    background-color: rgba(0, 0, 0,0.3);
+    /* neflixin sayfasındaki bir sonraki opak kısmı ayaladık */
+    margin: auto;
+    /* buradada margin auto yaparak o opaklığı sayfada ortaladım */
+   margin-top: 30px;
+   /* margin topu 30 px vermemizin sebebide o opaklıgı tepesini açmak */
+
+}
+
+#title{
+    font-size:3.1rem ;
+    /* burada h1 başlığın yazınının byüyklğünü küçüklüğünü ayarlıyorum */
+    color: white;
+    font-family: 'Alumni Sans Inline One', cursive;
+
+}
+span{
+    color:#ff0000;
+}
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
+  /* burasıda h3 kısmı */
+}
+#header{
+    text-align: center;
+    /* Buradada başlıklarımızın her iksinide ortalamak için yaptık bunu */
+}
+
+textarea{
+    resize: none;
+}
+
+#survey-form-container{
+    /* Burası koyu siyah olan form tarafın old yer */
+    width: 500px;
+    height: 897px;
+    /* burada bu heightler ve width e o siyah olan kısmın genişliğini verdik */
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    /* margin aotu yaparak siyah yeri ortalamış olduk */
+    padding: 30px 40px;
+    /* burada beyaz boşlukları padding yaparak siyah containerimiza göre ayarladık yani; marjin le yazı arasında oynamalar yatık*/
+}
+
+#name,#Age,#email,#content,#textarea{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+    /* buradaki de tek tek isim yaş oradaki kutuları ayarladık */
+}
+
+.input-box{
+    margin-top: 10px;
+    /* burad da kutuların hepsine hükmettik yukarıdan siyah yere göre ayarladık */
+}
+
+
+
+
+ 
+
+
+#Form-button{
+    width: 50%;
+    height: 25px;
+    color: white;
+    background-color: #ff0000;
+    border:none;
+    border-radius: 50px;
+    /* Burada button için işlemler yapıyoruz  */
+    cursor: pointer;
+}
+
+.form-submit{
+  margin:auto;
+  width: 140px;
+  /* burada send buttonumuzu ortalamak için div vermiştik onu kullandık */
+}
+

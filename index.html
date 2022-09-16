@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Netflix</title>
+</head>
+<body>
+    <div id="container">
+
+        <header id="header">
+            <h1 id="title">NET<span>FLİX</span></h1>
+            <h3 id="description">Thank you for signing up to Netflix.Tell me more about yourself.</h3>
+        </header>
+    
+
+    <section id="survey-form-container">
+        <!-- section dediğim yer koyu siyah alan olan yer -->
+        <form action="result.html">
+            <div class="input-box">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="ad" id="name" placeholder="Enter Your Name" required>
+            </div>
+
+            <div class="input-box">
+                <br>
+                <label for="Age">Age</label>
+                <br>
+                <input type="number" name="" id="Age"placeholder="Age" min="18" max="100" required>
+            </div>
+             
+
+           <div class="input-box">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+           </div>
+           
+
+          <div class="input-box">
+            <br>
+            <label for="content">Content Type</label>
+            <br>
+            <select name="dropdown" id="content">
+                <option value="movies">Movies</option>
+                <option value="series"selected>Series</option>
+                <option value="TV_Shows">TV Shows</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <br>
+             <p>Movie Type</p>
+            
+           <input type="checkbox" name="movie1" id="movie">
+           <label for="movie">Comedy</label>
+           <br>
+           <input type="checkbox" name="movie2" id="action">
+           <label for="action">Action</label>
+           <br>
+           <input type="checkbox" name="movie3" id="romance">
+           <label for="romance">Romance</label>
+          </div>
+
+          <div class="input-box">
+            <br><br>
+            <p>Gender</p>
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="Female">
+            <label for="gender">Female</label>
+            <br>
+            <input type="radio" name="gender" id="Other">
+            <label for="other">Other</label>
+          </div>
+
+          <div class="input-box">
+            <br>
+            <label for="textarea">Feedback</label>
+            <br>
+            <textarea name="text" id="textarea" cols="50" rows="10" placeholder="Any comment.."required></textarea>
+          </div>
+
+
+          <div class="form-submit">
+            <!-- buradaki divi kullanmamızın sebebi gönder kısmını ortalamamıza yarayacak -->
+    
+    <button type="submit" id="Form-button">Send</button>
+        
+      </div>
+
+
+
+        
+        
+        
+        
+
+        </form>
+    </section>
+</div>
+
+</body>
+</html>
